@@ -10,3 +10,25 @@ canvas {
     width: 100%;
     height: 100%;
 }
+input {
+    position: absolute;
+}
+.container {
+    left: 50%;
+    height: 50%;
+    position: absolute;
+}
+.start {
+    padding: 0.5em;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    display: inline;
+    position: relative;
+}
+.container .option {
+    color: white;
+    position: relative;
+}
