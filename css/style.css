@@ -15,21 +15,23 @@ input {
 }
 .container {
     left: 50%;
-    height: 50%;
+    transform: translate(-50%,-50%);
     position: absolute;
+    text-align: center;
 }
 .start {
-    padding: 0.5em;
+    padding: 10px;
     border: 1px solid white;
     border-radius: 0.5em;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     display: inline;
     position: relative;
+    cursor: pointer;
 }
 .container .option {
     color: white;
     position: relative;
-    margin: -50%;
+    margin: 10px;
 }
