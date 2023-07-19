@@ -31,4 +31,5 @@ input {
 .container .option {
     color: white;
     position: relative;
+    margin: -50%;
 }
